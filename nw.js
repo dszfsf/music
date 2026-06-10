@@ -12,20 +12,20 @@ const svc = new Service({
 	env: [
 		   {
 	 	name: 'ENABLE_FLAC',
-         value 'true' },
+         value: 'true' },
      {
 	name: 'QQ_COOKIE',
 	value: 'uin=<your_uin>; qm_keyst=<your_qm_keyst>',
 	},
 			   {
 	 	name: 'ENABLE_LOCAL_VIP',
-         value 'true' },
+         value: 'true' },
 			   {
 	 	name: 'BLOCK_ADS',
-         value 'true' },
+         value: 'true' },
 					   {
 	 	name: '	DISABLE_UPGRADE_CHECK',
-         value 'true' }
+         value: 'true' }
 	],
 });
 
