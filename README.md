@@ -76,7 +76,7 @@ docker pull zzz2333zf/unblock-netease-music-enhanced
 若要指定环境变量，您可以往 `docker run` 传入 `-e`，就像这样：
 
 ```bash
-docker run -e JSON_LOG=true -e LOG_LEVEL=debug pan93412/unblock-netease-music-enhanced
+docker run -e JSON_LOG=true -e LOG_LEVEL=debug zzz2333zf/unblock-netease-music-enhanced
 ```
 
 若要传入配置参数，只要在 `docker run` 的 image 之后传入参数即可：
