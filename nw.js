@@ -12,12 +12,11 @@ const svc = new Service({
 		   {
 	 	name: 'ENABLE_FLAC',
          value: 'true' },
-     {
-	name: 'QQ_COOKIE',
-	value: 'uin=<your_uin>; qm_keyst=<your_qm_keyst>',
-	},
 			   {
 	 	name: 'ENABLE_LOCAL_VIP',
+         value: 'true' },
+				   {
+	 	name: 'SELECT_MAX_BR',
          value: 'true' },
 			   {
 	 	name: 'BLOCK_ADS',
