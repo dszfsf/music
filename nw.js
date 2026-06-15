@@ -14,7 +14,7 @@ const svc = new Service({
          value: 'true' },
 			   {
 	 	name: 'ENABLE_LOCAL_VIP',
-         value: 'true' },
+         value: 'svip' },
 				   {
 	 	name: 'SELECT_MAX_BR',
          value: 'true' },
